@@ -40,7 +40,7 @@ namespace ChangLab.NCBI
             {
                 UseBrowserProxy = false,
                 UseAsyncMode = true,
-                Connection = new Uri("https://www.ncbi.nlm.nih.gov/blast/Blast.cgi"),
+                Connection = new Uri("https://blast.ncbi.nlm.nih.gov/Blast.cgi"),
                 DefaultTimeout = ConfigurationSettings.RequestTimeout
             });
         }
