@@ -368,7 +368,7 @@ namespace ChangLab.PAML.CodeML
                                         result.Values.Add(new ResultdNdSValue(ResultdNdSValueTypes.background_w, double.Parse(line.SplitByEmptySpace()[0])));
                                         result.Values.Add(new ResultdNdSValue(ResultdNdSValueTypes.foreground_w, double.Parse(line.SplitByEmptySpace()[1])));
                                     }
-                                    else if (line.StartsWith("dN/dS (w)") && result.NSSite == 2)
+                                    else if (line.StartsWith("MLEs of dN/dS (w)") && result.NSSite == 2) //Previous version: "dN/dS (w)"
                                     {
                                         // Branch-Site
                                         line = reader.ReadLine(); // Now we're on an empty line
@@ -383,7 +383,7 @@ namespace ChangLab.PAML.CodeML
 
                                 case 3:
                                     // Clade model C
-                                    if (line.StartsWith("dN/dS (w) for site classes"))
+                                    if (line.StartsWith("MLEs of dN/dS (w) for site classes")) //Previous version: "dN/dS (w) for site classes"
                                     {
                                         line = reader.ReadLine(); // Now we're on an empty line
                                         line = reader.ReadLine(); // Now we're on the header line
