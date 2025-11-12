@@ -62,7 +62,7 @@ namespace ChangLab.PAML.CodeML
                     this.Exceptions.Add(new WarningException("Unable to parse PAML version number. Results may not be correctly parsed from the output file."));
                 }
                 // Similarly to the following comments, this is all just hard-coded for now.
-                else if (!(new Version[] { new Version(4, 8), new Version(4, 9), new Version(4, 10) }).Any(v => v.ToString() == this.PAMLVersion.ToString()))
+                else if (!(new[] { new Version(4, 8), new Version(4, 9), new Version(4, 10) }).Contains(this.PAMLVersion))
                 {
                     this.Exceptions.Add(new WarningException("PAML version in use is not explicitly supported by " + ApplicationProperty.GetEntryAssemblyProductName() + ". Results may not be correctly parsed from the output file."));
                 }
