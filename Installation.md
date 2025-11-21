@@ -8,7 +8,7 @@
    - 1.2 What is BlastPhyMe?
 - 2 Installing BlastPhyMe
    - 2.1 Prerequisites
-      - 2.1.1 Microsoft .NET Framework 4.0
+      - 2.1.1 Microsoft .NET Framework 4.8
       - 2.1.2 Microsoft .NET Framework 4.0.2 Update
       - 2.1.3 Microsoft SQL Server 2014 Express LocalDB
       - 2.1.4 Microsoft SQL Server 2014 Shared Management Objects
@@ -51,9 +51,9 @@ file can be run to install all five components.
 The prerequisites for BlastPhyMe are listed here for informational purposes only, and do not need to be
 downloaded and installed separately.
 
-#### 2.1.1 Microsoft .NET Framework 4.0
+#### 2.1.1 Microsoft .NET Framework 4.8
 
-The BlastPhyMe application code relies upon the Microsoft .NET Framework version 4.0 platform to
+The BlastPhyMe application code relies upon the Microsoft .NET Framework version 4.8 platform to
 perform most tasks involving the display of a visual interface to the user and interacting with the host
 operating system. Some users may already have the “client profile”, a subset of the full platform,
 installed due to Windows Updates, but BlastPhyMe requires the full platform be installed. When the
@@ -93,7 +93,7 @@ packages are used.
  Setup.exe: this file should be run to install BlastPhyMe and its prerequisites
  BlastPhyMeSetupx64.msi: this file contains the configuration information for installing
 BlastPhyMe and its prerequisites
- \DotNetFX40: contains the Microsoft .NET Framework 4.0 full platform
+ \DotNetFX40: contains the Microsoft .NET Framework 4.8 full platform
  \BlastPhyMePrerequisitesx64: contains the Microsoft .NET Framework 4.0.2 update, Microsoft
 SQL Server Express LocalDB, and Microsoft SQL Server 2014 Shared Management Objects
  \WindowsInstaller3_1: contains a prerequisite for the Microsoft .NET Framework 4.0 that most
