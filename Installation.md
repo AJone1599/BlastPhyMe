@@ -9,9 +9,8 @@
 - 2 Installing BlastPhyMe
    - 2.1 Prerequisites
       - 2.1.1 Microsoft .NET Framework 4.8
-      - 2.1.2 Microsoft .NET Framework 4.0.2 Update
-      - 2.1.3 Microsoft SQL Server 2014 Express LocalDB
-      - 2.1.4 Microsoft SQL Server 2014 Shared Management Objects
+      - 2.1.2 Microsoft SQL Server 2014 Express LocalDB
+      - 2.1.3 Microsoft SQL Server 2014 Shared Management Objects
    - 2.2 BlastPhyMe Installation Package
       - 2.2.1 First-Time Installation
       - 2.2.2 Installing Updates
@@ -60,14 +59,7 @@ installed due to Windows Updates, but BlastPhyMe requires the full platform be i
 BlastPhyMe Installation Package is run, if the client profile is already installed it will be upgraded to the
 full platform.
 
-
-#### 2.1.2 Microsoft .NET Framework 4.0.2 Update
-
-In order to communicate with its local database files, BlastPhyMe requires the Microsoft .NET
-Framework version 4.0.2 update. Some users may already have this update installed due to Windows
-Updates, in which case the BlastPhyMe Installation Package will skip this step.
-
-#### 2.1.3 Microsoft SQL Server 2014 Express LocalDB
+#### 2.1.2 Microsoft SQL Server 2014 Express LocalDB
 
 The local database files that BlastPhyMe uses for storing and organizing data run on the Microsoft SQL
 Server 2014 Express LocalDB platform. LocalDB is a light-weight version of Microsoft’s SQL Server
@@ -75,7 +67,7 @@ database platform that is only actively running on the user’s computer if the 
 such as BlastPhyMe, that interacts with a LocalDB database file. At other times the LocalDB software
 will not be actively running and consuming system resources.
 
-#### 2.1.4 Microsoft SQL Server 2014 Shared Management Objects
+#### 2.1.3 Microsoft SQL Server 2014 Shared Management Objects
 
 To allow the user to create their own database files, and to provide automatic updates to those
 database files when a new version of BlastPhyMe is run, BlastPhyMe requires the Shared Management
