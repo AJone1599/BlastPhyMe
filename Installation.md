@@ -3,12 +3,12 @@
 # (BLAST, PHYLOGENIES, AND MOLECULAR EVOLUTION)
 
          - Current as of application version 1. INSTALLATION GUIDE
-            - Last updated January 24 ,
+            - Last updated December 15, 2025
    - 1.1 Scope CONTENTS
    - 1.2 What is BlastPhyMe?
 - 2 Installing BlastPhyMe
    - 2.1 Prerequisites
-      - 2.1.1 Microsoft .NET Framework 4.8
+      - 2.1.1 Microsoft .NET Framework 4.8.1
       - 2.1.2 Microsoft SQL Server 2014 Express LocalDB
       - 2.1.3 Microsoft SQL Server 2014 Shared Management Objects
    - 2.2 BlastPhyMe Installation Package
@@ -50,9 +50,9 @@ file can be run to install all five components.
 The prerequisites for BlastPhyMe are listed here for informational purposes only, and do not need to be
 downloaded and installed separately.
 
-#### 2.1.1 Microsoft .NET Framework 4.8
+#### 2.1.1 Microsoft .NET Framework 4.8.1
 
-The BlastPhyMe application code relies upon the Microsoft .NET Framework version 4.8 platform to
+The BlastPhyMe application code relies upon the Microsoft .NET Framework version 4.8.1 platform to
 perform most tasks involving the display of a visual interface to the user and interacting with the host
 operating system. Some users may already have the “client profile”, a subset of the full platform,
 installed due to Windows Updates, but BlastPhyMe requires the full platform be installed. When the
@@ -75,21 +75,12 @@ Objects add-on for Microsoft SQL Server 2014.
 
 ### 2.2 BlastPhyMe Installation Package
 
-The BlastPhyMe Installation Package consists of two core installation files and three folders containing
-the prerequisites. Separate packages will be available for installing on 64-bit (x64) or 32-bit (x86)
-hardware, but for simplicity’s sake this documentation will only refer to the 64-bit files. There are no
-differences in the installation procedure between 64-bit and 32-bit, only that different installation
-packages are used.
+The BlastPhyMe Installation Package consists of two core installation files.
 
 ```
  Setup.exe: this file should be run to install BlastPhyMe and its prerequisites
  BlastPhyMeSetupx64.msi: this file contains the configuration information for installing
 BlastPhyMe and its prerequisites
- \DotNetFX40: contains the Microsoft .NET Framework 4.8 full platform
- \BlastPhyMePrerequisitesx64: contains the Microsoft .NET Framework 4.0.2 update, Microsoft
-SQL Server Express LocalDB, and Microsoft SQL Server 2014 Shared Management Objects
- \WindowsInstaller3_1: contains a prerequisite for the Microsoft .NET Framework 4.0 that most
-users will already have had installed by Windows Updates
 ```
 #### 2.2.1 First-Time Installation
 
@@ -105,15 +96,10 @@ the user. The following screen-prints are examples of the prompts that you may r
 installation procedure, and “Install”, “Yes”, or “Accept” must be selected for each.
 
 1. BlastPhyMe Installation Package Pre-requisites
-2. Microsoft .NET Framework 4.
-
-
-3. Microsoft .NET Framework 4.0.2 Update
-4. Microsoft SQL Server 2014 Express LocalDB and Windows Installer 3.
-5. Microsoft SQL Server 2014 Shared Management Objects
-
-
-6. Finally, BlastPhyMe itself
+2. Microsoft .NET Framework 4.8.1
+3. Microsoft SQL Server 2014 Express LocalDB and Windows Installer 3.
+4. Microsoft SQL Server 2014 Shared Management Objects
+5. Finally, BlastPhyMe itself
 
 When BlastPhyMe itself is being installed, the installation directory for the application files can be
 modified. By default, BlastPhyMe will install to C:\Program Files\Chang Lab\BlastPhyMe.
@@ -164,7 +150,7 @@ details). TreeView can be downloaded from: [http://taxonomy.zoology.gla.ac.uk/ro
 
 To utilize the Selection Analysis module PAML (codeml) must be downloaded from:
 [http://abacus.gene.ucl.ac.uk/software/paml.html.](http://abacus.gene.ucl.ac.uk/software/paml.html.) The current recommended version of PAML for use
-with BlastPhyMe is 4.8.
+with BlastPhyMe is 4.10.9.
 
 ### 3.7 MICROSOFT EXCEL
 
