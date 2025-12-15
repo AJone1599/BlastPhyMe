@@ -1,18 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ajrba\\Documents\\BlastPhyMe\\NewUpdate\\",
+  "WorkspaceRootPath": "C:\\Users\\ajrba\\Documents\\BlastPhyMe\\BlastPhyMe\\",
   "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|PilgrimageTests||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ChangLab||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Pilgrimage||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E86C728-856C-441B-8F75-8059F186AE5B}|..\\Source Code\\PilgrimageTests\\PilgrimageTests.csproj|c:\\users\\ajrba\\documents\\blastphyme\\source code\\pilgrimagetests\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{5E700266-664C-4AE4-B1CE-F263619E5A0C}|..\\Source Code\\ChangLab\\ChangLab.csproj|c:\\users\\ajrba\\documents\\blastphyme\\source code\\changlab\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,36 +29,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PilgrimageTests",
-              "DocumentMoniker": "C:\\Users\\ajrba\\Documents\\BlastPhyMe\\Source Code\\PilgrimageTests\\PilgrimageTests.csproj",
-              "RelativeDocumentMoniker": "..\\Source Code\\PilgrimageTests\\PilgrimageTests.csproj",
-              "ToolTip": "C:\\Users\\ajrba\\Documents\\BlastPhyMe\\Source Code\\PilgrimageTests\\PilgrimageTests.csproj",
-              "RelativeToolTip": "..\\Source Code\\PilgrimageTests\\PilgrimageTests.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-15T14:27:06.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ChangLab",
               "DocumentMoniker": "C:\\Users\\ajrba\\Documents\\BlastPhyMe\\Source Code\\ChangLab\\ChangLab.csproj",
               "RelativeDocumentMoniker": "..\\Source Code\\ChangLab\\ChangLab.csproj",
               "ToolTip": "C:\\Users\\ajrba\\Documents\\BlastPhyMe\\Source Code\\ChangLab\\ChangLab.csproj",
               "RelativeToolTip": "..\\Source Code\\ChangLab\\ChangLab.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-15T14:26:58.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pilgrimage",
-              "DocumentMoniker": "C:\\Users\\ajrba\\Documents\\BlastPhyMe\\Source Code\\Pilgrimage\\Pilgrimage.csproj",
-              "RelativeDocumentMoniker": "..\\Source Code\\Pilgrimage\\Pilgrimage.csproj",
-              "ToolTip": "C:\\Users\\ajrba\\Documents\\BlastPhyMe\\Source Code\\Pilgrimage\\Pilgrimage.csproj",
-              "RelativeToolTip": "..\\Source Code\\Pilgrimage\\Pilgrimage.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-15T14:26:37.492Z"
+              "WhenOpened": "2025-12-15T14:26:58.316Z",
+              "EditorCaption": ""
             }
           ]
         }
