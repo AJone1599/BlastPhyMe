@@ -1,8 +1,8 @@
-## BLASTPHYME
+## BLASTPHYME (BLAST, PHYLOGENIES, AND MOLECULAR EVOLUTION)
 
-# (BLAST, PHYLOGENIES, AND MOLECULAR EVOLUTION)
+# INSTALLATION GUIDE
 
-         - Current as of application version 1.5.1.0 INSTALLATION GUIDE
+         - Current as of application version 1.5.1.0
             - Last updated January 12, 2026
    - 1.1 Scope CONTENTS
    - 1.2 What is BlastPhyMe?
