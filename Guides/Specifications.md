@@ -1,6 +1,6 @@
 ## BLASTPHYME TECHNICAL SPECIFICATIONS
 
-         - Current as of application version 1.
+         - Current as of application version 1.5.1.0
             - Last updated January 12, 2026
 - 1 Introduction CONTENTS
    - 1.1 Scope
