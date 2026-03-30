@@ -437,6 +437,9 @@
   <ItemGroup>
     <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_5_0_7.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LocalDatabase\Upgrade\Upgrade_1_5_1_0.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -102,7 +102,7 @@ UPDATE PAML.ModelPreset SET Name = 'Branch Model (Null)', ShortName = 'Branch Mo
 UPDATE PAML.ModelPreset SET Name = 'Branch-Site Model (Alt)', ShortName = 'Branch-Site Model (Alt)' WHERE [Key] = 'BranchSite'
 UPDATE PAML.ModelPreset SET Name = 'Branch-Site Model (Null)', ShortName = 'Branch-Site Model (Null)' WHERE [Key] = 'BranchSiteNull'
 UPDATE PAML.ModelPreset SET Name = 'Clade Model C (Alt)', ShortName = 'Clade Model C (Alt)' WHERE [Key] = 'CmC'
-UPDATE PAML.ModelPreset SET Name = 'Clade Model C (Res)', ShortName = 'Clade Model C (Res)' WHERE [Key] = 'CmcNull'
+UPDATE PAML.ModelPreset SET Name = 'Clade Model C (Null)', ShortName = 'Clade Model C (Null)' WHERE [Key] = 'CmcNull'
 
 SET NOCOUNT OFF
 GO
