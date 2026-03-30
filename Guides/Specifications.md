@@ -1,7 +1,7 @@
 ## BLASTPHYME TECHNICAL SPECIFICATIONS
 
-         - Current as of application version 1.
-            - Last updated January 24 ,
+         - Current as of application version 1.5.1.0
+            - Last updated January 12, 2026
 - 1 Introduction CONTENTS
    - 1.1 Scope
 - 2 Core Platforms
@@ -31,11 +31,11 @@ to for those requirements.
 ## 2 Core Platforms
 
 The BlastPhyMe application is coded in the C# programming language on the Microsoft .NET Framework
-platform, version 4.0.
+platform, version 4.8.1
 
 [http://msdn.microsoft.com/en-us/library/zw4w595w(v=vs.100).aspx](http://msdn.microsoft.com/en-us/library/zw4w595w(v=vs.100).aspx)
 
-The database engine that BlastPhyMe interacts with for storing data is the Microsoft SQL Server 2014
+The database engine that BlastPhyMe interacts with for storing data is the Microsoft SQL Server 2019
 Express LocalDB engine.
 
 [http://msdn.microsoft.com/en-ca/library/hh510202(v=sql.120).aspx](http://msdn.microsoft.com/en-ca/library/hh510202(v=sql.120).aspx)

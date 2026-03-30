@@ -1,16 +1,16 @@
-## BLASTPHYME
+## BLASTPHYME (BLAST, PHYLOGENIES, AND MOLECULAR EVOLUTION)
 
-# (BLAST, PHYLOGENIES, AND MOLECULAR EVOLUTION)
+# INSTALLATION GUIDE
 
-         - Current as of application version 1. INSTALLATION GUIDE
-            - Last updated December 15, 2025
+         - Current as of application version 1.5.1.0
+            - Last updated January 12, 2026
    - 1.1 Scope CONTENTS
    - 1.2 What is BlastPhyMe?
 - 2 Installing BlastPhyMe
    - 2.1 Prerequisites
       - 2.1.1 Microsoft .NET Framework 4.8.1
-      - 2.1.2 Microsoft SQL Server 2014 Express LocalDB
-      - 2.1.3 Microsoft SQL Server 2014 Shared Management Objects
+      - 2.1.2 Microsoft SQL Server 2019 Express LocalDB
+      - 2.1.3 Microsoft SQL Server 2019 Shared Management Objects
    - 2.2 BlastPhyMe Installation Package
       - 2.2.1 First-Time Installation
       - 2.2.2 Installing Updates
@@ -59,19 +59,19 @@ installed due to Windows Updates, but BlastPhyMe requires the full platform be i
 BlastPhyMe Installation Package is run, if the client profile is already installed it will be upgraded to the
 full platform.
 
-#### 2.1.2 Microsoft SQL Server 2014 Express LocalDB
+#### 2.1.2 Microsoft SQL Server 2019 Express LocalDB
 
 The local database files that BlastPhyMe uses for storing and organizing data run on the Microsoft SQL
-Server 2014 Express LocalDB platform. LocalDB is a light-weight version of Microsoft’s SQL Server
+Server 2019 Express LocalDB platform. LocalDB is a light-weight version of Microsoft’s SQL Server
 database platform that is only actively running on the user’s computer if the user runs an application,
 such as BlastPhyMe, that interacts with a LocalDB database file. At other times the LocalDB software
 will not be actively running and consuming system resources.
 
-#### 2.1.3 Microsoft SQL Server 2014 Shared Management Objects
+#### 2.1.3 Microsoft SQL Server 2019 Shared Management Objects
 
 To allow the user to create their own database files, and to provide automatic updates to those
 database files when a new version of BlastPhyMe is run, BlastPhyMe requires the Shared Management
-Objects add-on for Microsoft SQL Server 2014.
+Objects add-on for Microsoft SQL Server 2019.
 
 ### 2.2 BlastPhyMe Installation Package
 
@@ -97,8 +97,8 @@ installation procedure, and “Install”, “Yes”, or “Accept” must be se
 
 1. BlastPhyMe Installation Package Pre-requisites
 2. Microsoft .NET Framework 4.8.1
-3. Microsoft SQL Server 2014 Express LocalDB and Windows Installer 3.
-4. Microsoft SQL Server 2014 Shared Management Objects
+3. Microsoft SQL Server 2019 Express LocalDB and Windows Installer 3.
+4. Microsoft SQL Server 2019 Shared Management Objects
 5. Finally, BlastPhyMe itself
 
 When BlastPhyMe itself is being installed, the installation directory for the application files can be
